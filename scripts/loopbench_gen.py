@@ -8,7 +8,7 @@ Each item: {id, set, category, prompt, gold, check}
 """
 import json, random, math, os
 
-OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "loopbench")
+OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "loopbench")
 NAMES = ["Ahmed", "Fatima", "Bilal", "Ayesha", "Usman", "Zainab", "Hassan", "Maryam",
          "Ali", "Sara", "Omar", "Hira", "Danish", "Noor", "Kamran", "Iqra"]
 

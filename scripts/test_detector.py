@@ -1,3 +1,4 @@
+import sys, os; sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "loopbench")); sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 #!/usr/bin/env python3
 """Hand test for loop_detect.py: 10 looping + 10 clean outputs. Must pass 20/20."""
 from loop_detect import detect

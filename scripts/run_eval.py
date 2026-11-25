@@ -49,7 +49,7 @@ def main():
     args = ap.parse_args()
 
     os.makedirs(args.out, exist_ok=True)
-    bench = os.path.join(os.path.dirname(os.path.abspath(__file__)), "loopbench")
+    bench = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "loopbench")
     for s in args.sets.split(","):
         items = [json.loads(l) for l in open(os.path.join(bench, f"{s}.jsonl"))]
         if args.limit:

@@ -8,7 +8,7 @@ Bootstrap 95% CI on loop rate (1,000 resamples, seed fixed).
 """
 import argparse, json, os, re, sys
 import random as pyrandom
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__)))); sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "loopbench"))
 from loop_detect import detect
 
 
