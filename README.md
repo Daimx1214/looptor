@@ -34,6 +34,7 @@ Built for the **Qwen Local Hackathon 2026** by Daim Ali (solo).
 
 - [x] LoopBench generated (600/200/100), zero cross-set overlap
 - [x] Detector verified 20/20 on hand cases
-- [ ] Base-model before-numbers
-- [ ] Dataset + training
+- [ ] Base-model before-numbers (local subset running; full on Colab)
+- [x] Dataset builder ready (1,048 rows pre-BoN; ~3,000 after Best-of-N)
+- [ ] Training (Colab notebook ready: looptor_colab.ipynb)
 - [ ] GGUF + local Ollama verification
