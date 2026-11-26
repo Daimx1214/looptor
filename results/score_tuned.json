@@ -1,0 +1,39 @@
+{
+  "stress": {
+    "n": 100,
+    "loop_rate": 0.77,
+    "loop_ci95": [
+      0.69,
+      0.85
+    ],
+    "nonterm_rate": 0.39,
+    "median_tokens": 2048,
+    "mean_tokens": 1760.8,
+    "accuracy": 0.3333,
+    "accuracy_n": 60,
+    "loop_by_category": {
+      "stress": "77/100"
+    }
+  },
+  "test": {
+    "n": 200,
+    "loop_rate": 0.415,
+    "loop_ci95": [
+      0.35,
+      0.485
+    ],
+    "nonterm_rate": 0.045,
+    "median_tokens": 1170,
+    "mean_tokens": 1246.2,
+    "accuracy": 0.9355,
+    "accuracy_n": 186,
+    "loop_by_category": {
+      "coding": "6/6",
+      "counting": "36/48",
+      "explain": "0/4",
+      "logic": "14/45",
+      "math": "24/93",
+      "planning": "3/4"
+    }
+  }
+}

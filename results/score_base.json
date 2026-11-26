@@ -1,0 +1,4 @@
+{
+  "stress": {"accuracy": 0.2833, "accuracy_n": 60, "loop_by_category": {"stress": "85/100"}, "loop_ci95": [0.78, 0.91], "loop_rate": 0.85, "mean_tokens": 1884.0, "median_tokens": 2048, "n": 100, "nonterm_rate": 0.52},
+  "test": {"accuracy": 0.9032, "accuracy_n": 186, "loop_by_category": {"coding": "6/6", "counting": "47/48", "explain": "1/4", "logic": "29/45", "math": "26/93", "planning": "3/4"}, "loop_ci95": [0.495, 0.63], "loop_rate": 0.56, "mean_tokens": 1378.2, "median_tokens": 1295, "n": 200, "nonterm_rate": 0.1}
+}
