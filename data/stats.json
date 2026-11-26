@@ -1,7 +1,1 @@
-{
-  "part1_bestofn": 0,
-  "part2_concise": 700,
-  "part3_recovery": 240,
-  "part4_direct": 108,
-  "total": 1048
-}
+{"committed_rows_in_train_jsonl":1048,"note":"data/train.jsonl holds the 1,048 programmatic rows (parts 2-4). The 215 Best-of-N rows (part 1) were sampled from the base model with scripts/gen_bestofn.py and merged for the final Kaggle training run, giving 1,263 rows total.","part1_bestofn":215,"part2_concise":700,"part3_recovery":240,"part4_direct":108,"total_training_rows_final_run":1263}

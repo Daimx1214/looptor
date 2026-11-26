@@ -3,3 +3,4 @@ __pycache__/
 results/*.log
 models/
 data/bestofn_raw.jsonl
+drive-seed/
